@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 #including the data set file
+#dataset is saved in housing.csv file
 df = pd.read_csv('housing.csv')
 #print(df.head())
 df.head() 
